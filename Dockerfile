@@ -11,7 +11,7 @@ ENV PYTHONIOENCODING="UTF-8"
 
 # install app
 RUN \
- git clone -b develop --depth=1 https://github.com/SickRage/SickRage.git /app/sickrage
+ git clone -b develop --depth=1 https://github.com/babfrag/SickRage.git /app/sickrage
 
 # copy local files
 COPY root/ /
